@@ -44,7 +44,7 @@ int main()
     int N, C;
     scanf("%d %d", &N, &C);
     
-    int **cadeias = (int **)malloc(C * sizeof(int));
+    int **cadeias = (int **)malloc(C * sizeof(int*));
     
     int pacientes_zero[N];
     int counter = 0;
